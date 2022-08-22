@@ -1,0 +1,125 @@
+.App-header{
+    z-index: 1000;
+    background-color: rgb(0, 62, 87);
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    
+   
+}
+.App-content{
+    padding-top: 80px;
+}
+.logo{
+    position: fixed;
+}
+.text-logo{
+    color: #ff9900;
+    font-weight: 500;
+    
+}
+.header-links{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.link{
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2688ff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.link.active{
+    border-bottom: 2px solid #ff9900;
+    transition-duration: 100ms;
+}
+.contact-links{
+    display: flex;
+    justify-content: center;
+}
+.contact-links a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #ff9900;
+}
+.App-footer{
+    background-color: black;
+}
+h3{
+    
+    margin-top: 7px;
+    
+}
+.f-wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.copyright{
+    color: #06f;
+    text-align: center;
+}
+.social h3{
+    color: #06f;
+}
+.social div{
+    display: flex;
+    margin: 5px 0px;
+}
+.social div i{
+    align-self: center;
+}
+.social div img{
+    width: 25px;
+    height: 25px;
+    
+}
+i{
+    color: #06f;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contact h3{
+    color: #ff9900;
+}
+.contact a{
+    color: #ff9900;
+    margin: 5px 0px;
+}
+.f-a{
+    
+    display: flex;
+    flex-direction: column;
+}
+.f-links h3{
+    color: #06f;
+}
+.f-a {
+    color: #06f;
+    margin: 5px 0px;
+}
+@media screen and (max-width: 550px ) {
+    
+    .header-links{
+        justify-content: flex-end;
+    }
+    .contact-links{
+        justify-content: flex-end;
+    }
+}

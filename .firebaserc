@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "coral-circlet-331006"
+  },
+  "targets": {
+    "coral-circlet-331006": {
+      "hosting": {
+        "gym": [
+          "gymdem"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
